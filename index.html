@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<img>
+    <meta charset="UTF-8">
+    <title>その１</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1 class="page-title">御神籤</h1>
+
+    <div class="box">
+        <br class="box-item">
+        <img src="picture\おみくじ.png" class="omikuzi">
+            <p class="box-title">４つのうち１つからまがまがしい空気を感じる・・・。<br>あなたはどれを引く？</p>
+            <br>
+            <a href="lose.html" class="form-control">→</a>
+            <a href="firstclear.html" class="form-control">↑</a>
+            <a href="firstclear.html" class="form-control">←</a>
+            <a href="firstclear.html" class="form-control">↓</a>
+        </div>
+        <div class="box-item"><span class="box-title"></span>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <div class="text-center result">
+        <p></p>
+    </div>
+
+    <audio controls>
+        <source src="audio/BGM.wav">
+    </audio>
+        
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

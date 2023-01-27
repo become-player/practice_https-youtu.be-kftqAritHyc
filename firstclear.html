@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>その２</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <h1 class="page-title">双の間</h1>
+
+  <div class="box">
+      <br class="box-item">
+      <img src="picture\おみくじ.png" class="omikuzi">
+          <p class="box-title">あなたは不吉な雰囲気を避けた。<br>しかし，今度は４つのうち２つからまがまがしい空気を感じる・・・。<br>あなたはどれを引く？</p>
+          <br>
+          <a href="lose.html" class="form-control">→</a>
+          <a href="secondclear.html" class="form-control">↑</a>
+          <a href="lose.html" class="form-control">←</a>
+          <a href="secondclear.html" class="form-control">↓</a>
+      </div>
+      <div class="box-item"><span class="box-title"></span>
+          <p id="result"></p>
+      </div>
+  </div>
+
+  <div class="text-center result">
+      <p></p>
+  </div>
+
+  <audio controls autoplay>
+      <source src="audio/BGM.wav">
+  </audio>
+      
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
