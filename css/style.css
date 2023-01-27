@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+body{
+    font-size:16px;
+    line-height: 3;
+    color:#000000;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color:plum;
+}
+
+.outer{
+    padding: 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.page-title{
+    margin-bottom: 24px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    border:double 10px #000000;
+}
+.box{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 640px;
+    margin: 24px auto 64px;
+    font-size: 18px;
+}
+.box-item{
+    margin-bottom: 32px;
+    display:-webkit-flex
+}
+.box-title{
+    text-align: center;
+    font-size:40px;
+}
+
+.form-control{
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 100px;
+    color: rgb(222, 30, 30);
+    background-color: #5677a7;
+    box-shadow:0 4px 0 #051732;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 100px;
+}
+.result{
+    font-size: 32px;
+}
+
+.tenten{
+    text-align:center;
+}
+
+.omikuzi{
+    height:600px;
+    text-align: center;
+    width:100%;
+}
+
+
+
+
+
+
+/*intro.htmlのための設定*/
+.intro-title{
+    font-size:100px;
+    text-align: center;
+    color:red;
+    border:solid 10px #000000;
+    border-radius: 10px
+    
+}
+
+.hiku{
+    font-size:200px;
+    color:purple;
+    text-align: center;
+    margin:100px;
+    height:100px;
+    border:double 10px #000000;
+    background-color:aliceblue;
+    border-radius:20px;
+    font-weight:1000;
+}
+
+.bunsyo{
+    font-size:50px;
+    line-height-step: 20;
+    text-decoration:underline;
+}
+
+/*intro終わり*/
